@@ -1,0 +1,21 @@
+.grid {
+	background-color: #efefef;
+	transform-origin: top center;
+	transition: transform 0.5s;
+}
+
+.grid-item {
+	border: solid 1px !important; 
+}
+
+.grid-item:active, .grid-item.moving {
+	z-index: 2;
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+
+.grid-placeholder {
+	background-color: rgba(0, 0, 0, 0.3);
+}
